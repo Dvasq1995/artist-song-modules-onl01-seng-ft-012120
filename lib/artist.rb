@@ -11,7 +11,7 @@ class Artist
 
   def initialize
     self.class.all << self
-end
+  end
 
   def self.all
     @@artists
